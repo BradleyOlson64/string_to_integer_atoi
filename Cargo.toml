@@ -1,0 +1,16 @@
+[package]
+name = "brads_leet_code_string_to_integer"
+license = "MIT"
+description = "LeetCode string to integer (atoi) problem solution"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
